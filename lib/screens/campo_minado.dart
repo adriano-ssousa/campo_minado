@@ -96,7 +96,7 @@ class _CampoMinadoAppState extends State<CampoMinadoApp> {
                       tabuleiro: _getTabuleiro(
                         constraints.maxWidth,
                         constraints.maxHeight -
-                            100, // Ajuste a altura para deixar espaço para os botões
+                            50, // Ajuste a altura para deixar espaço para os botões
                       ),
                       onAbrir: _abrir,
                       onAlternarMarcacao: _alternarMarcacao,
@@ -124,7 +124,7 @@ class _CampoMinadoAppState extends State<CampoMinadoApp> {
                                   builder: (context) => ConfiguracoesPage()),
                             );
                           },
-                          child: Text('Configurações'),
+                          child: Text('Configurações   '),
                         );
                       },
                     ),
